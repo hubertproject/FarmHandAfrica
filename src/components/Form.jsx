@@ -31,12 +31,12 @@ const Form = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Farm Information Form</h2>
+    <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-md shadow-md">
+      <h2 className="text-2xl font-bold mb-4 text-green">Please fill the Form to get Connected</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="farmerName" className="block text-gray-700 font-bold">
-            Farmer's Name:
+            Farmer's FullName:
           </label>
           <input
             type="text"
@@ -50,7 +50,7 @@ const Form = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="farmerInitials" className="block text-gray-700 font-bold">
-            Farmer's Initials:
+            What type of farmer are you?
           </label>
           <input
             type="text"
@@ -64,7 +64,7 @@ const Form = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="connectionPreference" className="block text-gray-700 font-bold">
-            Connection Preference:
+           What type of labourers do you need?
           </label>
           <input
             type="text"
@@ -92,7 +92,7 @@ const Form = () => {
         </div>
         <button
           type="submit"
-          className="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-all"
+          className="bg-green text-black py-2 px-4 rounded-md hover:bg-green-600 transition-all w-full"
         >
           Submit
         </button>
