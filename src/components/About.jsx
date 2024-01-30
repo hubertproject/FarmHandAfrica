@@ -31,7 +31,7 @@ const About = () => {
 
             <div className="w-full md:w-3/4 text-center space-y-2 mb-4 text-left">
               <div className="text-left space-y-2 mb-2">
-              <h1 className="text-left font-bold text-3xl sm:text-4xl mt-2 font-yeseva text-green mt-20">
+              <h1 className="text-left font-bold text-3xl sm:text-3xl mt-2 font-yeseva text-green mt-20">
   About Us
 </h1>
                 <p>
