@@ -45,11 +45,16 @@ const Form = () => {
         </div>
       ) : (
         <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-md shadow-md">
-          <h2 className="text-2xl font-bold mb-4 text-green">Please fill the Form to get Connected</h2>
+          <h2 className="text-2xl font-bold mb-4 text-green">
+            Please fill the Form to get Connected
+          </h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="farmerName" className="block text-gray-700 font-bold">
-                Farmer's FullName:
+              <label
+                htmlFor="farmerName"
+                className="block text-gray-700 font-bold"
+              >
+                What is your Fullname?:
               </label>
               <input
                 type="text"
@@ -62,8 +67,11 @@ const Form = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="farmerInitials" className="block text-gray-700 font-bold">
-                What type of farmer are you?
+              <label
+                htmlFor="farmerInitials"
+                className="block text-gray-700 font-bold"
+              >
+                What type of farm do you operate?
               </label>
               <input
                 type="text"
@@ -76,8 +84,11 @@ const Form = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="connectionPreference" className="block text-gray-700 font-bold">
-                What type of labourers do you need?
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                How many acres is your farm?
               </label>
               <input
                 type="text"
@@ -90,19 +101,167 @@ const Form = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="farmDetails" className="block text-gray-700 font-bold">
-                Farm Details:
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                On average, how many labourers do you require for your farm
+                operations?
               </label>
-              <textarea
-                id="farmDetails"
-                name="farmDetails"
-                value={formData.farmDetails}
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
                 onChange={handleChange}
-                rows="4"
                 className="w-full p-2 border rounded-md"
                 required
-              ></textarea>
+              />
             </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                Are there specific seasons or times of the year when you need
+                more labour?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                What types of tasks do you typically hire labourers for?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                Would you be open to using online platforms or services for
+                recruiting labourers?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                How do you communicate tasks, schedules, and expectations to
+                your labourers?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                Are you open to different payment methods, such as digital
+                transactions or mobile payments?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                Are there specific certifications or training programs you
+                prefer labourers to have?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                What challenges, if any, have you encountered in recruiting and
+                managing labourers for your farm?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="connectionPreference"
+                className="block text-gray-700 font-bold"
+              >
+                How comfortable are you with using technology for farm
+                management and labour recruitment?
+              </label>
+              <input
+                type="text"
+                id="connectionPreference"
+                name="connectionPreference"
+                value={formData.connectionPreference}
+                onChange={handleChange}
+                className="w-full p-2 border rounded-md"
+                required
+              />
+            </div>
+
             <button
               type="submit"
               className="bg-green text-black py-2 px-4 rounded-md hover:bg-green-600 transition-all w-full"
