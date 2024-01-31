@@ -39,7 +39,7 @@ const Home = () => {
                 <p className="text-green mt-10 text-left text-4xl font-bold font-quicksand">
                   Connect with Skilled Labourers{" "}
                   <p className="text-black font-quicksand">
-                    FarmHand at your service.
+                  For all your farm work needs
                   </p>
                 </p>
                 <p className="mt-10 text-start text-2xlg font-bold font-quicksand  text-white">
