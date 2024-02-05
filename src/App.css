@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+/* Add this to your CSS or styles file */
+.social-icon-container {
+  display: inline-block;
+}
+
