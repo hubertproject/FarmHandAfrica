@@ -68,16 +68,16 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="farmerInitials"
+                htmlFor="farmOperated"
                 className="block text-gray-700 font-bold"
               >
                 What type of farm do you operate?
               </label>
               <input
                 type="text"
-                id="farmerInitials"
-                name="farmerInitials"
-                value={formData.farmerInitials}
+                id="farmOperated"
+                name="farmOperated"
+                value={formData.farmOperated}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -85,16 +85,16 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="farmAcres"
                 className="block text-gray-700 font-bold"
               >
                 How many acres is your farm?
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="farmAcres"
+                name="farmAcres"
+                value={formData.farmAcres}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -102,7 +102,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="labourersRequired"
                 className="block text-gray-700 font-bold"
               >
                 On average, how many labourers do you require for your farm
@@ -110,9 +110,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="labourersRequired"
+                name="labourersRequired"
+                value={formData.labourersRequired}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -120,7 +120,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="specificSeason"
                 className="block text-gray-700 font-bold"
               >
                 Are there specific seasons or times of the year when you need
@@ -128,9 +128,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="specificSeason"
+                name="specificSeason"
+                value={formData.specificSeason}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -138,16 +138,16 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="tasks"
                 className="block text-gray-700 font-bold"
               >
                 What types of tasks do you typically hire labourers for?
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="tasks"
+                name="tasks"
+                value={formData.tasks}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -155,7 +155,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="onlinePlatform"
                 className="block text-gray-700 font-bold"
               >
                 Would you be open to using online platforms or services for
@@ -163,9 +163,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="onlinePlatform"
+                name="onlinePlatform"
+                value={formData.onlinePlatform}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -173,7 +173,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="taskCommunication"
                 className="block text-gray-700 font-bold"
               >
                 How do you communicate tasks, schedules, and expectations to
@@ -181,9 +181,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="taskCommunication"
+                name="taskCommunication"
+                value={formData.taskCommunication}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -191,7 +191,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="paymentPlatform"
                 className="block text-gray-700 font-bold"
               >
                 Are you open to different payment methods, such as digital
@@ -199,9 +199,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="paymentPlatform"
+                name="paymentPlatform"
+                value={formData.paymentPlatform}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -209,7 +209,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="training"
                 className="block text-gray-700 font-bold"
               >
                 Are there specific certifications or training programs you
@@ -217,9 +217,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="training"
+                name="training"
+                value={formData.training}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -227,7 +227,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="challenges"
                 className="block text-gray-700 font-bold"
               >
                 What challenges, if any, have you encountered in recruiting and
@@ -235,9 +235,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="challenges"
+                name="challenges"
+                value={formData.challenges}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
@@ -245,7 +245,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
               <label
-                htmlFor="connectionPreference"
+                htmlFor="technology"
                 className="block text-gray-700 font-bold"
               >
                 How comfortable are you with using technology for farm
@@ -253,9 +253,9 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                id="connectionPreference"
-                name="connectionPreference"
-                value={formData.connectionPreference}
+                id="technology"
+                name="technology"
+                value={formData.technology}
                 onChange={handleChange}
                 className="w-full p-2 border rounded-md"
                 required
