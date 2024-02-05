@@ -32,10 +32,10 @@ const About = () => {
 
             <div className="w-full md:w-3/4 text-center space-y-2 mb-4 text-left">
               <div className="text-left space-y-2 mb-2">
-                <h1 className="text-left font-bold text-4xl mt-2 font-quicksand text-green mt-16">
+                <h1 className="text-left font-bold text-4xl mt-2 font-quicksand text-green mt-20">
                   About Us
                 </h1>
-                <h1 className="py-10">
+                <h1 className="py-5">
                   FarmHand is here to help farmers find reliable laborers
                   easily. Our goal is to make farm work simpler by connecting
                   you with skilled professionals. We understand how important it
