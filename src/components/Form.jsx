@@ -26,7 +26,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add your logic to handle the form submission here
+    // logic to handle the form submission here
     console.log("Form submitted:", formData);
     // Reset the form data after submission if needed
     setFormData({
@@ -44,7 +44,7 @@ const Form = () => {
           <FadeLoader color={"#008000"} loading={loading} size={50} />
         </div>
       ) : (
-        <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-md shadow-md">
+        <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-2xl shadow-2xl mb-5">
           <h2 className="text-2xl font-bold mb-4 text-green">
             Please fill the Form to get Connected
           </h2>
