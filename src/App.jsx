@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Form from "./components/Form";
-// Add this import statement
+import Footer from "./components/Footer"; // Add this import statement
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/form" element={<Form />} />
           {/* Other routes go here if needed */}
         </Routes>
-       {/*  <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

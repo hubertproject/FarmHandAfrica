@@ -1,103 +1,46 @@
-/* eslint-disable no-unused-vars */
-import React, { useState, useEffect } from "react";
-
-import twitter from "/socials/twitter.png";
-import whatsapp from "/socials/whatsapp.png";
-import gmail from "/socials/gmail.png";
-import FadeLoader from "react-spinners/FadeLoader";
+import React from "react";
 
 const Footer = () => {
-  // Function to open WhatsApp direct message
-  const openWhatsApp = () => {
-    window.location.href = "https://wa.me/233542721222"; // Replace with your WhatsApp number
-  };
-  const [loading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-  }, []);
-
   return (
-    <div>
-      {loading ? (
-        <div className="flex items-center justify-center h-screen">
-          <FadeLoader color={"#008000"} loading={loading} size={50} />
-        </div>
-      ) : (
-        <div className="flex flex-col items-center justify-center mt-10">
-          <div className="w-full md:w-3/4 flex flex-col md:flex-row items-center mt-4 md:mx-5">
-            <div className="md:w-2/4">
-              <div className="ml-2">
-                {/* Email Icon */}
-                <p className="text-2xl mb-1">
-                  <span role="img" aria-label="Email">
-                    ✉️
-                  </span>{" "}
-                  farmhand@gmail.com
-                </p>
-                {/* Phone Icons */}
-                <p className="text-2xl mb-1">
-                  <span role="img" aria-label="Phone">
-                    📞
-                  </span>{" "}
-                  +233 50-392-9152
-                </p>
-                <p className="text-2xl mb-1">
-                  <span role="img" aria-label="Phone">
-                    📞
-                  </span>{" "}
-                  +233 20-323-2550
-                </p>
-                {/* Address Icon */}
-                <p className="text-2xl">
-                  <span role="img" aria-label="Address">
-                    🏠
-                  </span>{" "}
-                  Node Eight. Ho, Ghana
-                </p>
-
-                {/* "Connect with us now" text */}
-                <p className="text-xl mt-20">Connect directly with us now: </p>
-
-                {/* Social Media Icons with Links */}
-                <div className="flex flex-wrap justify-left space-x-10 mt-2 ml-4">
-                  <img
-                    src={whatsapp}
-                    alt="Whatsapp"
-                    onClick={openWhatsApp}
-                    style={{ cursor: "pointer" }}
-                  />
-                  <a href="/" target="_blank" rel="noreferrer">
-                    <img src={gmail} alt="Gmail" />
-                  </a>
-                  <a href="/" target="_blank" rel="noreferrer">
-                    <img src={twitter} alt="Twitter" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="md:w-3/3 mt-4 object-cover object-contain object-center md:p-0 p-6">
-              <iframe
-                title="Google Map"
-                className="p-6 md:p-0"
-                style={{ border: 2 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                // Set specific dimensions for big screens
-                width="450"
-                height="300"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15853.28974592265!2d0.4711075!3d6.6067962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1027251acb4fb667%3A0x53e41668dd70c8b7!2sNode%20Eight!5e0!3m2!1sen!2sgh!4v1707151019549!5m2!1sen!2sgh"
-              ></iframe>
+    <div style={{ backgroundColor: "#14431B" }} className="py-10 mt-5">
+      <div className="container mx-auto">
+        <div className="flex justify-between">
+          {/* Contact Us Section */}
+          <div className="w-1/3 flex flex-col items-center">
+            <h2 className="text-white text-2xl font-bold mb-4">Contact Us</h2>
+            <p className="text-white flex items-center">
+              <i className="fas fa-phone-alt mr-2"></i>
+              +233-5301-355-83
+            </p>
+          </div>
+          {/* Location Section */}
+          <div className="w-1/3 flex flex-col items-center">
+            <h2 className="text-white text-2xl font-bold mb-4">Location</h2>
+            <p className="text-white flex items-center">
+              <i className="fas fa-map-marker-alt mr-2"></i>
+              Togbui Tawiah Building
+            </p>
+          </div>
+          {/* Follow Us Section */}
+          <div className="w-1/3">
+            <h2 className="text-white text-2xl font-bold mb-4">Follow Us</h2>
+            <div className="flex items-center text-white">
+              <a href="#" className="mr-4">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" className="mr-4">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#" className="mr-4">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
             </div>
           </div>
         </div>
-      )}
-      <footer className="text-center text-gray-500 text-md mt-5">
-        &copy; 2024 FarmHand. All rights reserved.
-      </footer>
+      </div>
     </div>
   );
 };

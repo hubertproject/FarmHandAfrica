@@ -39,16 +39,18 @@ const Form = () => {
 
   return (
     <div>
+        <div style={{ backgroundColor: "#14431B" }}>
       {loading ? (
-        <div className="flex items-center justify-center h-screen">
+        <div className="flex items-center justify-center h-screen ">
           <FadeLoader color={"#008000"} loading={loading} size={50} />
         </div>
       ) : (
-        <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-2xl shadow-2xl mb-5">
+        <div className="container mx-auto">
+        <div className="max-w-md mx-auto p-4 bg-white rounded-2xl shadow-2xl">
           <h2 className="text-2xl font-bold mb-4 text-green">
             Please fill the Form to get Connected
           </h2>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} style={{ backgroundColor: "#E5E7EB"}}>
             <div className="mb-4">
               <label
                 htmlFor="farmerName"
@@ -268,11 +270,12 @@ const Form = () => {
             >
               Submit
             </button>
-          </form>
-        </div>
-      )}
+            </form>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
-
 export default Form;

@@ -22,8 +22,8 @@ const Choose = () => {
       ) : (
         <>
           
-          <div className="md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-5 md:mx-5 mx-5 mt-5">
-            <div className="w-full md:w-2/3 mb-2 mt-5 relative">
+          <div className="md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-5 md:mx-5 mx-5 mt-5 ">
+            <div className="w-full md:w-2/3 mb-2 mt-5 relative ">
               
               <img
                 src={farm2}

@@ -15,10 +15,10 @@ const Home = () => {
   }, []);
 
   const backgroundImageStyle = {
-    backgroundImage: `url("https://images.unsplash.com/photo-1535090467336-9501f96eef89?q=80&w=1500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+    backgroundImage: `url("https://www.worldfinance.com/wp-content/uploads/2020/04/West_African_chocolate.jpg")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "500px", // Adjust the height as per your requirement
+    height: "400px", // Adjust the height as per your requirement
     width: "100%",
     position: "relative", // Add position relative to position children elements
   };
