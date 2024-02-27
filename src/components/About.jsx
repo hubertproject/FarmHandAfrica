@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FadeLoader from "react-spinners/FadeLoader";
-import frame40 from "../assets/frame40.png";
+import farmer from "../assets/farmer.png";
 
 const About = () => {
   const [loading, setIsLoading] = useState(true);
@@ -20,7 +20,7 @@ const About = () => {
             <FadeLoader color={"#008000"} loading={loading} size={50} />
           </div>
         ) : (
-          <img src={frame40} alt="About" className="mx-auto" />
+          <img src={farmer} alt="About" className="mx-auto" />
         )}
       </div>
       {/* Add other content for the About page */}
