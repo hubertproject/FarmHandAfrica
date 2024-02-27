@@ -18,7 +18,7 @@ const Home = () => {
     backgroundImage: `url("https://www.worldfinance.com/wp-content/uploads/2020/04/West_African_chocolate.jpg")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "400px", // Adjust the height as per your requirement
+    height: "500px", // Adjust the height as per your requirement
     width: "100%",
     position: "relative", // Add position relative to position children elements
   };
