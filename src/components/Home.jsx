@@ -3,7 +3,7 @@ import Button from "../layout/Button";
 import { Link } from "react-router-dom";
 import Choose from "../components/Choose";
 import About from "../components/About";
-import FadeLoader from "react-spinners/FadeLoader";
+import ClockLoader from "react-spinners/ClockLoader";
 
 const Home = () => {
   const [loading, setIsLoading] = useState(true);
@@ -33,7 +33,7 @@ const Home = () => {
     <div>
       {loading ? (
         <div className="flex items-center justify-center h-screen">
-          <FadeLoader color={"#008000"} loading={loading} size={50} />
+          <ClockLoader color={"#008000"} loading={loading} size={30} />
         </div>
       ) : (
         <div>

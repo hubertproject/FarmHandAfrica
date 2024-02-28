@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import FadeLoader from "react-spinners/FadeLoader";
+import ClockLoader from "react-spinners/ClockLoader";
 
 const About = () => {
   const [loading, setIsLoading] = useState(true);
@@ -24,7 +24,7 @@ const About = () => {
           <div className="relative">
             {loading ? (
               <div className="flex items-center justify-center h-96">
-                <FadeLoader color={"#008000"} loading={loading} size={50} />
+                <ClockLoader color={"#008000"} loading={loading} size={30} />
               </div>
             ) : (
               <img

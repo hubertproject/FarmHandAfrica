@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import FadeLoader from "react-spinners/FadeLoader";
+import ClockLoader from "react-spinners/ClockLoader";
 import farm1 from "../assets/farm1.png";
 import farm2 from "../assets/farm2.png";
 
@@ -17,7 +17,7 @@ const Choose = () => {
     <div>
       {loading ? (
         <div className="flex items-center justify-center h-screen">
-          <FadeLoader color={"#008000"} loading={loading} size={50} />
+          <ClockLoader color={"#008000"} loading={loading} size={30} />
         </div>
       ) : (
         <>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import FadeLoader from "react-spinners/FadeLoader";
+import ClockLoader from "react-spinners/ClockLoader";
   // Assuming your Navbar component is in a separate file
 
 const Form = () => {
@@ -44,7 +44,7 @@ const Form = () => {
       <div className="form-container" style={{ marginTop: "20px" }}>
         {loading ? (
           <div className="flex items-center justify-center ">
-            <FadeLoader color={"#008000"} loading={loading} size={50} />
+            <ClockLoader color={"#008000"} loading={loading} size={30} />
           </div>
         ) : (
           <div className="container mx-auto">
