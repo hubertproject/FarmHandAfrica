@@ -11,7 +11,7 @@ const About = () => {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#14431B" }} className="mt-10 py-5">
+    <div style={{ backgroundColor: "#14431B" }} className="mt-5 py-5">
       <div className="container mx-auto flex flex-wrap items-center">
         <div className="w-full lg:w-1/2 lg:pr-8">
           <h1 className="text-4xl font-bold font-quicksand mb-10 text-white">About FarmHand</h1>
@@ -28,7 +28,7 @@ const About = () => {
               </div>
             ) : (
               <img
-                src="https://plus.unsplash.com/premium_photo-1682147003117-503b926d51d0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace with your image URL
+                src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace with your image URL
                 alt="About Image"
                 className="rounded-xl shadow-lg gap-5 md:mx-5 mx-2  mt-5"
                 style={{ width: "600px", height: "400px" }} // Adjust image size here

@@ -26,8 +26,8 @@ const Navbar = () => {
   };
 
   return (
-    <div style={{ position: "fixed", width: "100%", zIndex: 50, visibility: visible ? "visible" : "hidden" }}>
-      <div className="flex flex-row justify-between p-3 px-2 md:px-8 bg-transparent font-quicksand">
+    <div style={{ position: "top", width: "100%", zIndex: 50, visibility: visible ? "visible" : "hidden",  }}> 
+      <div className="flex flex-row justify-between p-3 px-2 md:px-8 bg-ground font-quicksand">
         <div className="flex items-center">
           <NavLink to="/" className="p-0 cursor-pointer flex items-center">
             <img src={logo} alt="Logo" style={{ width: "80px", height: "20px" }} />
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="hidden md:flex gap-6 font-bold p-1 text-xl">
           <NavLink
             to="/"
-            className="text-white mr-10 text-center transition-all cursor-pointer hover:shadow-md hover:shadow-ground"
+            className="text-white mr-10 text-center transition-all cursor-pointer hover:shadow-md hover:shadow-white"
             activeClassName="active"
             onClick={handleMenuItemClick}
           >
@@ -45,7 +45,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             to="/about"
-            className="text-white  transition-all cursor-pointer hover:shadow-md hover:shadow-ground"
+            className="text-white  transition-all cursor-pointer hover:shadow-md hover:shadow-white"
             activeClassName="active"
             onClick={handleMenuItemClick}
           >
@@ -59,10 +59,10 @@ const Navbar = () => {
         </div>
       </div>
       {menu && (
-        <div style={{ position: "absolute", top: 0, left: 0, width: "100%" }} className="md:hidden flex flex-col bg-white font-bold text-2xl text-center pt-8 pb-4 gap-4 h-fit transition-transform duration-300">
+        <div style={{ position: "absolute", top: 0, left: 0, width: "100%" }} className="md:hidden flex flex-col bg-ground font-bold text-2xl text-center pt-2 pb-2 gap-2 h-fit transition-transform duration-300">
           <NavLink
             to="/"
-            className="text-green  transition-all cursor-pointer hover:shadow-md hover:shadow-ground"
+            className="text-white  transition-all cursor-pointer hover:shadow-md hover:shadow-white"
             activeClassName="active"
             onClick={handleMenuItemClick}
           >
@@ -70,7 +70,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             to="/about"
-            className="text-green  transition-all cursor-pointer hover:shadow-md hover:shadow-ground"
+            className="text-white  transition-all cursor-pointer hover:shadow-md hover:shadow-white"
             activeClassName="active"
             onClick={handleMenuItemClick}
           >

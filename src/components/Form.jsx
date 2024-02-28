@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FadeLoader from "react-spinners/FadeLoader";
+  // Assuming your Navbar component is in a separate file
 
 const Form = () => {
   const [loading, setIsLoading] = useState(true);
@@ -39,24 +40,25 @@ const Form = () => {
 
   return (
     <div>
-        <div style={{ backgroundColor: "#14431B" }}>
-      {loading ? (
-        <div className="flex items-center justify-center h-screen ">
-          <FadeLoader color={"#008000"} loading={loading} size={50} />
-        </div>
-      ) : (
-        <div className="container mx-auto">
-        <div className="max-w-md mx-auto p-4 bg-white rounded-2xl shadow-2xl">
-          <h2 className="text-2xl font-bold mb-4 text-green">
-            Please fill the Form to get Connected
-          </h2>
+      
+      <div className="form-container" style={{ marginTop: "20px" }}>
+        {loading ? (
+          <div className="flex items-center justify-center ">
+            <FadeLoader color={"#008000"} loading={loading} size={50} />
+          </div>
+        ) : (
+          <div className="container mx-auto">
+            <div className="max-w-md mx-auto p-10 bg-white rounded-2xl shadow-2xl">
+              <h2 className="text-2xl font-bold mb-4 text-green">
+                Please fill the Form to get Connected
+              </h2>
           <form onSubmit={handleSubmit} style={{ backgroundColor: "#E5E7EB"}}>
             <div className="mb-4">
               <label
                 htmlFor="farmerName"
                 className="block text-gray-700 font-bold"
               >
-                What is your Fullname?:
+                Please enter your full name
               </label>
               <input
                 type="text"

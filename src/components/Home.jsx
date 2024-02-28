@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   const backgroundImageStyle = {
-    backgroundImage: `url("https://www.worldfinance.com/wp-content/uploads/2020/04/West_African_chocolate.jpg")`,
+    backgroundImage: `url("https://www.ada-microfinance.org/sites/default/files/inline-images/newslette%20dimension_0.png")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "500px", // Adjust the height as per your requirement
@@ -45,7 +45,7 @@ const Home = () => {
                 </p>
                 <p className="text-white font-quicksand text-4xl font-bold">in no time for all your farm</p>
                 <p className="text-white font-quicksand text-4xl font-bold">work needs</p>
-                <div className="mb-16"></div>
+                <div className="mb-20"></div>
                 <Link to="/Form">
                   <Button title="Register Now" style={buttonStyle} />
                 </Link>
