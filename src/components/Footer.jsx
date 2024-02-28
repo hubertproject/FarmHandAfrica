@@ -11,7 +11,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div style={{ backgroundColor: "#14431B" }} className="py-10 mt-5">
+    <div style={{ backgroundColor: "#14431B" }} className="py-2 mt-5">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between">
           {/* Contact Us Section */}
@@ -21,6 +21,7 @@ const Footer = () => {
               <img src={contact} alt="contact" className="w-6 h-6 mr-2" />
               +233-5301-355-83
             </p>
+            
           </div>
           {/* Location Section */}
           <div className="w-full md:w-1/3 flex flex-col items-center mb-4 md:mb-0">

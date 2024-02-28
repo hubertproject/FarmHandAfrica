@@ -14,7 +14,7 @@ const About = () => {
     <div style={{ backgroundColor: "#14431B" }} className="mt-5 py-5">
       <div className="container mx-auto flex flex-wrap items-center">
         <div className="w-full lg:w-1/2 lg:pr-8">
-          <h1 className="text-4xl font-bold font-quicksand mb-10 text-white">About FarmHand</h1>
+          <h1 className="text-4xl font-bold font-quicksand mb-10 text-white text-center">About FarmHand</h1>
           <p className="text-white text-xl font-quicksand mb-10 text-left">
             FarmHand is dedicated to enhancing agriculture productivity by seamlessly connecting farmers with skilled laborers. Our commitment lies in providing farmers with top-tier laborers while reducing the burden of recruitment. We recognize the pivotal role skilled laborers play in farm success, hence our mission to streamline the process for the farmers. With FarmHand, managing laborers is effortless, allowing farmers to focus on optimizing farm operations.
           </p>
