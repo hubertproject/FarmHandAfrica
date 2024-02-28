@@ -40,7 +40,7 @@ const Home = () => {
           <div style={backgroundImageStyle}>
             <div className="min-h-[40vh] flex flex-col md:flex-row md:justify-between items-center md:mx-5">
               <div className="md:w-2/4 text-left rounded-lg p-2">
-                <h1 className="text-snow mt-20 text-left text-4xl  font-aclonica font-bold ">
+                <h1 className="text-snow mt-20 text-left text-4xl  font-quicksand font-bold ">
                   Connect with skilled laborers in no time for all your farm
                   work Say goodbye to delays and hello to productivity with our
                   platform

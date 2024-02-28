@@ -17,7 +17,7 @@ const About = () => {
           <h1 className="text-4xl font-bold font-quicksand mb-10 text-white text-center">
             About FarmHand
           </h1>
-          <p className="text-white text-xl font-aclonica mb-10 text-left">
+          <p className="text-white text-xl font-quicksand mb-10 text-left">
             FarmHand is dedicated to enhancing agriculture productivity by
             seamlessly connecting farmers with skilled laborers. Our commitment
             lies in providing farmers with top-tier laborers while reducing the
