@@ -20,11 +20,11 @@ const Footer = () => {
             <h2 className="text-white text-1xl font-bold mb-2">Contact Us</h2>
             <p className="text-white flex items-center mb-2">
               <img src={contact} alt="contact" className="w-6 h-6 mr-4" />
-              +233-5301-355-83
+              +233 (0)53 013 5583
             </p>
             <div className="text-white flex items-center mb-2"> {/* Added a wrapping div */}
               <img src={whatsapp} alt="WhatsApp" className="w-6 h-6 mr-4" />
-              +233-5427-212-222
+              +233 (0)54 272 1222
             </div>
             <div className="text-white flex items-center mb-2"> {/* Added a wrapping div */}
               <img src={gmail} alt="Gmail" className="w-6 h-6 mr-2" />
