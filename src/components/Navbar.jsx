@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
       </div>
       {menu && (
-        <div style={{ position: "absolute", top: 0, left: 0, width: "100%" }} className="md:hidden flex flex-col bg-ground font-bold text-2xl text-center pt-2 pb-2 gap-2 h-fit transition-transform duration-300">
+        <div style={{ position: "absolute", top: 0, left: 0, width: "100%" }} className="md:hidden flex flex-col bg-ground font-bold text-2xl text-center pt-1 pb-2 gap-0 h-fit transition-transform duration-300">
           <NavLink
             to="/"
             className="text-white  transition-all cursor-pointer hover:shadow-md hover:shadow-white"

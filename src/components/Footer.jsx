@@ -5,7 +5,8 @@ import whatsapp from "/socials/whatsapp.png";
 import twitter from "/socials/twitter.png";
 import gmail from "/socials/gmail.png";
 import linkedin from "/socials/linkedin.png";
-
+import facebook from "/socials/facebook.png";
+import github from "/socials/github.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -17,11 +18,18 @@ const Footer = () => {
           {/* Contact Us Section */}
           <div className="w-full md:w-1/3 flex flex-col items-center mb-4 md:mb-0">
             <h2 className="text-white text-1xl font-bold mb-2">Contact Us</h2>
-            <p className="text-white flex items-center">
-              <img src={contact} alt="contact" className="w-6 h-6 mr-2" />
+            <p className="text-white flex items-center mb-2">
+              <img src={contact} alt="contact" className="w-6 h-6 mr-4" />
               +233-5301-355-83
             </p>
-            
+            <div className="text-white flex items-center mb-2"> {/* Added a wrapping div */}
+              <img src={whatsapp} alt="WhatsApp" className="w-6 h-6 mr-4" />
+              +233-5427-212-222
+            </div>
+            <div className="text-white flex items-center mb-2"> {/* Added a wrapping div */}
+              <img src={gmail} alt="Gmail" className="w-6 h-6 mr-2" />
+              farmhand@gmail.com
+            </div>
           </div>
           {/* Location Section */}
           <div className="w-full md:w-1/3 flex flex-col items-center mb-4 md:mb-0">
@@ -36,13 +44,13 @@ const Footer = () => {
             <h2 className="text-white text-1xl font-bold mb-2">Follow Us</h2>
             <div className="flex items-center text-white">
               <a href="#" className="mr-4">
-                <img src={whatsapp} alt="Facebook Icon" className="w-6 h-6" />
+                <img src={facebook} alt="Facebook Icon" className="w-6 h-6" />
               </a>
               <a href="#" className="mr-4">
                 <img src={twitter} alt="Twitter Icon" className="w-6 h-6" />
               </a>
               <a href="#" className="mr-4">
-                <img src={gmail} alt="Instagram Icon" className="w-6 h-6" />
+                <img src={github} alt="Instagram Icon" className="w-6 h-6" />
               </a>
               <a href="#">
                 <img src={linkedin} alt="LinkedIn Icon" className="w-6 h-6" />
