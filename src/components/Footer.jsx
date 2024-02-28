@@ -27,7 +27,7 @@ const Footer = () => {
             <h2 className="text-white text-1xl font-bold mb-2">Location</h2>
             <p className="text-white flex items-center">
               <img src={location} alt="Location Icon" className="w-6 h-6 mr-2" />
-              Togbui Tawiah Building
+              Torgbui Tawiah Building
             </p>
           </div>
           {/* Follow Us Section */}
