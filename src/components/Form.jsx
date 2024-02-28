@@ -123,7 +123,7 @@ const Form = () => {
           </div>
         ) : (
           <div className="container mx-auto">
-            <div className="max-w-md mx-auto p-10 bg-white rounded-2xl shadow-2xl">
+            <div className="max-w-md mx-auto p-2 bg-white rounded-2xl shadow-2xl">
               <h2 className="text-2xl font-bold mb-4 text-green">
                 Please fill the Form to get Connected
               </h2>
@@ -134,7 +134,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="farmerName"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     Please enter your full name
                   </label>
@@ -151,7 +151,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="farmOperated"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     What type of farm do you operate?
                   </label>
@@ -168,7 +168,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="farmAcres"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     How many acres is your farm?
                   </label>
@@ -185,7 +185,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="labourersRequired"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     On average, how many labourers do you require for your farm
                     operations?
@@ -203,7 +203,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="specificSeason"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     Are there specific seasons or times of the year when you
                     need more labour?
@@ -221,7 +221,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="tasks"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     What types of tasks do you typically hire labourers for?
                   </label>
@@ -238,7 +238,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="onlinePlatform"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     Would you be open to using online platforms or services for
                     recruiting labourers?
@@ -256,7 +256,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="taskCommunication"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     How do you communicate tasks, schedules, and expectations to
                     your labourers?
@@ -274,7 +274,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="paymentPlatform"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     Are you open to different payment methods, such as digital
                     transactions or mobile payments?
@@ -292,7 +292,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="training"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     Are there specific certifications or training programs you
                     prefer labourers to have?
@@ -310,7 +310,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="challenges"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     What challenges, if any, have you encountered in recruiting
                     and managing labourers for your farm?
@@ -328,7 +328,7 @@ const Form = () => {
                 <div className="mb-4">
                   <label
                     htmlFor="technology"
-                    className="block text-gray-700 font-bold"
+                    className="block text-gray-700 font-bold text-xl"
                   >
                     How comfortable are you with using technology for farm
                     management and labour recruitment?
