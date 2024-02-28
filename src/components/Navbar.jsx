@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         <div className="flex md:hidden" onClick={handleMenuToggle}>
           <div className="p-2">
-            <AiOutlineMenu size={30} style={{ color: "black" }} />
+            <AiOutlineMenu size={35} style={{ color: "white" }} />
           </div>
         </div>
       </div>

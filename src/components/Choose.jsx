@@ -39,7 +39,7 @@ const Choose = () => {
 
             <div className="w-full md:w-3/4 text-center space-y-2 mb-4 text-left">
               <div className="text-left space-y-2 mb-2">
-              <h1 className="text-black mb-20 text-center text-4xl font-bold font-quicksand">
+              <h1 className="text-black mb-10 text-center text-4xl font-bold font-quicksand">
             Why Choose <span className="text-green">FarmHand?</span>
           </h1>
                 <ul style={{ listStyleType: "none", padding: 0 }}>
