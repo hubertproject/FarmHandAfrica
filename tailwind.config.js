@@ -16,7 +16,8 @@ export default {
         white: "#FFFFFF",
         lightGreen:"#90EE90",
         ground:"#14431B",
-        orange:"#FFA500"
+        orange:"#FFA500",
+        snow: "#F5F5F5"
          
       },
     },

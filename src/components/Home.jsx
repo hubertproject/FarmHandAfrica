@@ -18,15 +18,15 @@ const Home = () => {
     backgroundImage: `url("https://www.ada-microfinance.org/sites/default/files/inline-images/newslette%20dimension_0.png")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "500px", // Adjust the height as per your requirement
+    height: "550px",
     width: "100%",
-    position: "relative", // Add position relative to position children elements
+    position: "relative",
   };
 
   const buttonStyle = {
     position: "absolute",
-    bottom: "20px", // Adjust bottom position as per your requirement
-    left: "20px", // Adjust left position as per your requirement
+    bottom: "20px",
+    left: "20px",
   };
 
   return (
@@ -40,12 +40,13 @@ const Home = () => {
           <div style={backgroundImageStyle}>
             <div className="min-h-[40vh] flex flex-col md:flex-row md:justify-between items-center md:mx-5">
               <div className="md:w-2/4 text-left rounded-lg p-2">
-                <p className="text-white mt-20 text-left text-4xl font-bold font-quicksand">
-                  Connect with skilled laborers
-                </p>
-                <p className="text-white font-quicksand text-4xl font-bold">in no time for all your farm</p>
-                <p className="text-white font-quicksand text-4xl font-bold">work needs</p>
-                <div className="mb-20"></div>
+                <h1 className="text-snow mt-20 text-left text-4xl  font-aclonica font-bold ">
+                  Connect with skilled laborers in no time for all your farm
+                  work Say goodbye to delays and hello to productivity with our
+                  platform
+                </h1>
+
+                <div className="mt-8"></div>
                 <Link to="/Form">
                   <Button title="Register Now" style={buttonStyle} />
                 </Link>
@@ -53,7 +54,7 @@ const Home = () => {
             </div>
           </div>
           <Choose />
-          <About/>
+          <About />
         </div>
       )}
     </div>
