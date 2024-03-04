@@ -16,9 +16,9 @@ const Home = () => {
 
   const backgroundImageStyle = {
     backgroundImage: `url("https://www.ada-microfinance.org/sites/default/files/inline-images/newslette%20dimension_0.png")`,
-    backgroundSize: "cover",
+    backgroundSize: "cover",  
     backgroundPosition: "center",
-    height: "550px",
+    height: "500px",
     width: "100%",
     position: "relative",
   };
@@ -37,10 +37,10 @@ const Home = () => {
         </div>
       ) : (
         <div>
-          <div style={backgroundImageStyle}>
+         <div style={backgroundImageStyle}> 
             <div className="min-h-[40vh] flex flex-col md:flex-row md:justify-between items-center md:mx-5">
-              <div className="md:w-2/4 text-left rounded-lg p-2">
-                <h1 className="text-snow mt-20 text-left text-4xl  font-quicksand font-bold ">
+              <div className="md:w-3/4 text-left rounded-lg p-5">
+                <h1 className="text-snow mt-20 text-left text-4xl font-bold font-quicksand ">
                   Connect with skilled laborers in no time for all your farm
                   work Say goodbye to delays and hello to productivity with our
                   platform
@@ -52,7 +52,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> 
           <Choose />
           <About />
         </div>
