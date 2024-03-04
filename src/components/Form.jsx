@@ -343,7 +343,7 @@ const Form = () => {
                     required
                   />
                 </div>
-                  <div className="flex justify-end items-center">
+                <div className="flex justify-end items-center">
                   {successMessage && (
                     <p className="text-green-500 mt-3">{successMessage}</p>
                   )}

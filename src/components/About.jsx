@@ -11,10 +11,10 @@ const About = () => {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#14431B" }} className="mt-5 py-5">
+    <div style={{ backgroundColor: "#14431B" }} className="mt-2 py-2">
       <div className="container mx-auto flex flex-wrap items-center">
         <div className="w-full lg:w-1/2 lg:pr-8">
-          <h1 className="text-4xl font-bold font-quicksand mb-10 text-white text-center">
+          <h1 className="text-4xl font-bold font-quicksand mb-5 text-white text-center">
             About FarmHand
           </h1>
           <p className="text-white text-xl font-quicksand mb-10 text-left">

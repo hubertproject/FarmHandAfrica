@@ -46,7 +46,7 @@ const Home = () => {
                   platform
                 </h1>
 
-                <div className="mt-8"></div>
+                <div className="mt-10"></div>
                 <Link to="/Form">
                   <Button title="Register Now" style={buttonStyle} />
                 </Link>
